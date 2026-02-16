@@ -139,7 +139,7 @@ body {
 	.gfg-container {
     display: flex;
     width: 100%;
-    gap: 10px; /* Space between columns */
+    gap: 10px; /* Space between columns */}
 
 	.footer-container {
 	display: flex;
@@ -149,7 +149,7 @@ body {
 	color: white;          /* White text color for contrast */
 	padding: 5px;         /* Padding around the footer content */
 }
-}
+
 
 .column {
     flex: 1; /* This makes all columns equal width */
