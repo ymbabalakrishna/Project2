@@ -21,6 +21,19 @@ body {
     font-size: 20px;
 }
 
+.gfg2-div {
+    display: flex;
+    justify-content: space-between; /* This pushes one to left, one to right */
+    align-items: center;           /* Centers them vertically */
+    
+    background-color: #ff0000;
+    color: white;
+    padding: 15px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
 #live-clock {
     font-size: 16px;
     font-weight: normal;
@@ -86,6 +99,13 @@ body {
 		width: 100%;
 		height: 50px;
 		background-color: #1120de;
+		color: rgb(255, 254, 254);
+	}
+
+	.gfg2-div {
+		width: 100%;
+		height: 50px;
+		background-color: #ff0000;
 		color: rgb(255, 255, 255);
 	}
 }
@@ -95,6 +115,13 @@ body {
 	and (device-width: 320px)
 	and (-webkit-min-device-pixel-ratio: 2) {
 	.gfg-div {
+		width: 400px;
+		height: 400px;
+		background-color: #1120de;
+		color: rgb(226, 217, 217);
+	}
+
+	.gfg2-div {
 		width: 400px;
 		height: 400px;
 		background-color: #1120de;
