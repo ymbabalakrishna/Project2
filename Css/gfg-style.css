@@ -135,31 +135,6 @@ body {
 		font-size: 12px;
 		width: 33%;
 	}
-
-	.gfg-container {
-    display: flex;
-    width: 100%;
-    gap: 10px; /* Space between columns */}
-
-	.footer-container {
-	display: flex;
-	justify-content: center; /* Centers the footer horizontally */
-	align-items: center;     /* Centers the footer vertically */
-	background-color: #504e4e; /* Dark background for the footer */
-	color: white;          /* White text color for contrast */
-	padding: 5px;         /* Padding around the footer content */
-}
-
-
-.column {
-    flex: 1; /* This makes all columns equal width */
-    background-color: #f0f0f0;
-    padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
-}
-}
-
 /* For iPhone 5 Portrait or Landscape View */
 @media (device-height: 568px)
 	and (device-width: 320px)
@@ -189,6 +164,6 @@ body {
 		background-color: #1120de;
 		color: rgb(246, 242, 242);
 	}
-};
+}
 
 
