@@ -54,6 +54,15 @@ body {
     text-align: center;
 }
 
+.footer-container {
+	display: flex;
+	justify-content: center; /* Centers the footer horizontally */
+	align-items: center;     /* Centers the footer vertically */
+	background-color: #504e4e; /* Dark background for the footer */
+	color: white;          /* White text color for contrast */
+	padding: 5px;         /* Padding around the footer content */
+}
+
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
 	.gfg-div {
@@ -131,6 +140,15 @@ body {
     display: flex;
     width: 100%;
     gap: 10px; /* Space between columns */
+
+	.footer-container {
+	display: flex;
+	justify-content: center; /* Centers the footer horizontally */
+	align-items: center;     /* Centers the footer vertically */
+	background-color: #504e4e; /* Dark background for the footer */
+	color: white;          /* White text color for contrast */
+	padding: 5px;         /* Padding around the footer content */
+}
 }
 
 .column {
