@@ -64,7 +64,7 @@ body {
 		width: 400px;
 		height: 200px;
 		background-color: cyan;
-		color: black;
+		color: rgb(255, 255, 255);
 	}
 }
 
@@ -84,9 +84,9 @@ body {
 	and (-webkit-min-device-pixel-ratio: 2) {
 	.gfg-div {
 		width: 100%;
-		height: 40px;
+		height: 50px;
 		background-color: rgb(0, 30, 255);
-		color: black;
+		color: rgb(255, 255, 255);
 	}
 }
 
