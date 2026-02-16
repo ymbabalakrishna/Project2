@@ -126,6 +126,20 @@ body {
 		font-size: 12px;
 		width: 33%;
 	}
+
+	.gfg-container {
+    display: flex;
+    width: 100%;
+    gap: 10px; /* Space between columns */
+}
+
+.column {
+    flex: 1; /* This makes all columns equal width */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
 }
 
 /* For iPhone 5 Portrait or Landscape View */
