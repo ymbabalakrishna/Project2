@@ -120,10 +120,12 @@ body {
 	flex: 0 0 70%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	box-sizing: border-box;
 	padding: 15px;
 	background-color: #f9f9f9;
 	border-radius: 6px;
+	min-height: 120px;
 }
 
 .col-70 p {
@@ -141,6 +143,18 @@ body {
 	.col-30,
 	.col-70 {
 		flex: 0 0 100%;
+		min-height: auto;
+	}
+	.col-70 {
+		padding: 15px;
+		background-color: #f9f9f9;
+		min-height: auto;
+		justify-content: flex-start;
+	}
+	#birthday-display {
+		width: 100%;
+		word-wrap: break-word;
+		white-space: normal;
 	}
 }
 
@@ -176,10 +190,17 @@ body {
 @media screen and (max-device-width: 480px)
 	and (orientation: portrait) {
 	.gfg-div {
-		width: 200px;
-		height: 200px;
+		width: 100%;
+		padding: 10px 15px;
 		background-color: #1120de;
 		color: #fff;
+	}
+	.gfg-container {
+		flex-wrap: wrap;
+	}
+	.column {
+		flex: 0 0 100%;
+		padding: 10px;
 	}
 }
 
@@ -187,10 +208,16 @@ body {
 @media screen and (max-device-width: 640px)
 	and (orientation: landscape) {
 	.gfg-div {
-		width: 400px;
-		height: 200px;
+		width: 100%;
+		padding: 10px 15px;
 		background-color: #1120de;
 		color: rgb(255, 255, 255);
+	}
+	.gfg-container {
+		flex-wrap: wrap;
+	}
+	.column {
+		flex: 0 0 50%;
 	}
 }
 
@@ -198,10 +225,18 @@ body {
 @media screen
 	and (max-device-width: 640px) {
 	.gfg-div {
-		width: 400px;
-		height: 200px;
+		width: 100%;
+		padding: 10px 15px;
 		background-color: #1120de;
 		color: rgb(253, 253, 253);
+	}
+	.two-col {
+		flex-direction: column;
+		padding: 10px;
+	}
+	.col-30,
+	.col-70 {
+		flex: 0 0 100% !important;
 	}
 }
 
@@ -265,25 +300,31 @@ body {
     0% { background-color: #ffeb3b; }
     50% { background-color: #fff176; }
     100% { background-color: #ffeb3b; }
-}
+}}
 
-}
 /* For iPhone 5 Portrait or Landscape View */
 @media (device-height: 568px)
 	and (device-width: 320px)
 	and (-webkit-min-device-pixel-ratio: 2) {
 	.gfg-div {
-		width: 400px;
-		height: 400px;
+		width: 100%;
+		padding: 10px 15px;
 		background-color: #1120de;
 		color: rgb(226, 217, 217);
 	}
 
 	.gfg2-div {
-		width: 400px;
-		height: 400px;
+		width: 100%;
+		padding: 10px 15px;
 		background-color: #1120de;
 		color: rgb(226, 217, 217);
+	}
+	.two-col {
+		flex-direction: column;
+	}
+	.col-30,
+	.col-70 {
+		flex: 0 0 100% !important;
 	}
 }
 
@@ -292,13 +333,12 @@ body {
 	and (min-device-width: 375px)
 	and (-webkit-min-device-pixel-ratio: 3) {
 	.gfg-div {
-		width: 400px;
-		height: 400px;
+		width: 100%;
+		padding: 10px 15px;
 		background-color: #1120de;
 		color: rgb(246, 242, 242);
 	}
 }
-
 
 #birthday-display {
     animation: glow 2s infinite;
