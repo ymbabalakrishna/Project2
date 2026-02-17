@@ -172,6 +172,7 @@ body {
 		font-size: 12px;
 		width: 33%;
 	}
+}
 /* For iPhone 5 Portrait or Landscape View */
 @media (device-height: 568px)
 	and (device-width: 320px)
