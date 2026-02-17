@@ -255,6 +255,18 @@ body {
 	outline-offset: 2px;
 }
 
+#birthday-display {
+    animation: glow 2s infinite;
+    font-weight: bold;
+    border-bottom: 2px solid orange;
+}
+
+@keyframes glow {
+    0% { background-color: #ffeb3b; }
+    50% { background-color: #fff176; }
+    100% { background-color: #ffeb3b; }
+}
+
 }
 /* For iPhone 5 Portrait or Landscape View */
 @media (device-height: 568px)
