@@ -172,6 +172,36 @@ body {
 		font-size: 12px;
 		width: 33%;
 	}
+
+	.gfg-container .column button {
+	-webkit-appearance: none;
+	appearance: none;
+	display: block;
+	width: 100%;
+	padding: 12px 16px;
+	font-size: 16px;
+	line-height: 1;
+	color: #ffffff;
+	background: linear-gradient(180deg, #1e90ff 0%, #0b61d6 100%);
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+	transition: transform .08s ease, box-shadow .12s ease, background .12s ease;
+}
+.gfg-container .column button:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 6px 14px rgba(0,0,0,0.18);
+}
+.gfg-container .column button:active {
+	transform: translateY(0);
+	box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+.gfg-container .column button:focus {
+	outline: 3px solid rgba(30,144,255,0.22);
+	outline-offset: 2px;
+}
+
 }
 /* For iPhone 5 Portrait or Landscape View */
 @media (device-height: 568px)
