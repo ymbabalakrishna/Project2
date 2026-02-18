@@ -85,9 +85,18 @@ body {
 }
 
 @media (max-width: 600px) {
+	.gfg-container {
+		flex-wrap: wrap;
+		gap: 8px;
+		padding: 10px;
+	}
+	.column {
+		flex: 0 0 calc(50% - 4px);
+		padding: 10px;
+	}
 	.gfg-container .column button {
 		padding: 10px 12px;
-		font-size: 15px;
+		font-size: 14px;
 	}
 }
 
