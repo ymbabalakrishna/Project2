@@ -120,12 +120,10 @@ body {
 	flex: 0 0 70%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	box-sizing: border-box;
 	padding: 15px;
 	background-color: #f9f9f9;
 	border-radius: 6px;
-	min-height: 120px;
 }
 
 .col-70 p {
@@ -143,18 +141,9 @@ body {
 	.col-30,
 	.col-70 {
 		flex: 0 0 100%;
-		min-height: auto;
 	}
 	.col-70 {
-		padding: 15px;
-		background-color: #f9f9f9;
-		min-height: auto;
-		justify-content: flex-start;
-	}
-	#birthday-display {
-		width: 100%;
-		word-wrap: break-word;
-		white-space: normal;
+		display: none;
 	}
 }
 
