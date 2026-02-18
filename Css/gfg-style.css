@@ -58,7 +58,7 @@ body {
 .gfg-container .column button {
 	-webkit-appearance: none;
 	appearance: none;
-	display: block;
+	display: flex;
 	width: 100%;
 	padding: 12px 16px;
 	font-size: 16px;
